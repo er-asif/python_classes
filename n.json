@@ -1,0 +1,36 @@
+{
+    "users": [
+        {
+            "id": 5,
+            "firstName": "Mohammad Asif",
+            "lastName": "Ansari",
+            "email": "terry.medhurst@dummyjson.com",
+            "phone": "+63 917 979 2362",
+            "username": "emilys",
+            "password": "emilyspass",
+            "ip": "113.231.245.140",
+            "address": {
+                "address": "17490 Mitchel Village",
+                "city": "Buayan",
+                "state": "Ilocos Region (Region I)",
+                "postalCode": "56044"
+            }
+        },
+        {
+            "id": 5,
+            "firstName": "Mohd. ",
+            "lastName": "Ariz",
+            "email": "terry.medhurst@dummyjson.com",
+            "phone": "+63 917 979 2362",
+            "username": "emilys",
+            "password": "emilyspass",
+            "ip": "113.231.245.140",
+            "address": {
+                "address": "17490 Mitchel Village",
+                "city": "Buayan",
+                "state": "Ilocos Region (Region I)",
+                "postalCode": "56044"
+            }
+        }
+    ]
+}
