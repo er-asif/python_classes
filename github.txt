@@ -52,18 +52,16 @@ Method 2: Push Using VS Code UI (No Commands)
 6️⃣ Click Publish Branch
 7️⃣ Login to GitHub (one time)
 
+
+
 🔹 GitHub Login in VS Code (One-Time Setup)
-
 Press Ctrl + Shift + P
-
 Search GitHub: Sign in
-
 Login via browser
 
+
 🔹 Daily Workflow (Very Important)
-
 Whenever you make changes:
-
 git status
 git add .
 git commit -m "Your message"
