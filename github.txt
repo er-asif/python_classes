@@ -1,0 +1,70 @@
+git config --global user.name "Mohammad Asif"
+git config --global user.email "asifansari309753@gmail.com"
+git config --list
+
+Method 1: Using GitHub + VS Code (Recommended)
+
+✅ Step 1: Create a Repository on GitHub
+Go to GitHub → New Repository
+Enter:
+Repository name (e.g. my-project)
+Public or Private
+❌ Do NOT add README (for first time)
+Click Create repository
+Copy the repository URL
+
+
+Step 2: Open Project in VS Code
+Open VS Code
+Click File → Open Folder
+Select your project folder
+
+
+Step 3: Initialize Git in VS Code
+Open Terminal in VS Code (`Ctrl + ``)
+=> git init
+
+Step 4: Connect Local Project to GitHub
+git remote add origin https://github.com/username/my-project.git
+
+optional{
+Check:
+=> git remote -v
+}
+
+Step 5: Add Files to Git
+=> git add .
+
+Step 6: Commit Changes
+=> git commit -m "Initial commit"
+
+
+Step 7: Push Code to GitHub
+git branch -M main
+git push -u origin main
+
+Method 2: Push Using VS Code UI (No Commands)
+1️⃣ Open Source Control (Ctrl + Shift + G)
+2️⃣ Click Initialize Repository
+3️⃣ Stage files (+ icon)
+4️⃣ Write commit message
+5️⃣ Click Commit
+6️⃣ Click Publish Branch
+7️⃣ Login to GitHub (one time)
+
+🔹 GitHub Login in VS Code (One-Time Setup)
+
+Press Ctrl + Shift + P
+
+Search GitHub: Sign in
+
+Login via browser
+
+🔹 Daily Workflow (Very Important)
+
+Whenever you make changes:
+
+git status
+git add .
+git commit -m "Your message"
+git push
