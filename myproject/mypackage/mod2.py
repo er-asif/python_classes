@@ -1,0 +1,2 @@
+def seeoff():
+    print("Goodbyee")
